@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(#131213,#020103);
+    height: 100vh;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+nav ul li{
+    margin-right: 30px ;
+}
+nav ul li a{
+    padding: 15px 25 px;
+    border-radius: 20px;
+}
+nav ul li a :hover{
+    background-color: #fff;
+    color: #200016;
+}
+.login:hover{
+   
+    background-color: #fff;
+    color: #200016;
+    border-radius: 20px;
+    padding :6px 15px;
+    
+   
+}
+.sign:hover{
+    
+    background-color: #fff;
+    color: #200016;
+    padding :6px 15px;
+}
+.Home:hover{
+   
+    background-color: #fff;
+    color: #200016;
+    padding :6px 15px;
+    
+}
+
+.contact:hover{
+    
+    background-color: #fff;
+    color: #200016;
+
+    padding :6px 15px;
+}
+.sign{
+    padding: 6px 15 px;
+    
+}
+.Home{
+    padding: 6px 15 px;
+    border: 20px;
+    
+}
+.contact{
+    padding: 6px 15 px;
+    
+}
+.login{
+    padding: 6px 15 px;
+    
+}
+
+.div1{
+    background-image: url(../eclipse.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    background-repeat: no-repeat;
+    width:100%
+    
+    
+}
+.div3{
+    width:100%;
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: aliceblue;
+    font-family:  cursive;
+    
+}
+.h2{
+    font-size: 50px;
+}
+.p{
+    font-size: 20px;
+}
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px sold #009688;
+    background: #fff;
+    color: #10001f;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+span{
+    background:#a9a9a9 ;
+    width: 0%;
+    height: 100%;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+button :hover span{
+width:100%
+
+}
+button :hover{
+    border:none;
+}
+.continer{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../Background\ Image\ Galaxy\ GIF\ -\ Background\ Image\ Galaxy\ Universe\ -\ Discover\ &\ Share\ GIFs.gif);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+.ball-1{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background: #04f504;
+    transform: translate(-250px,500px);
+    position: absolute;
+}
+.ball-2 {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    transform: translate(-10px,150px);
+    position: absolute;
+
+}
+.ball-3{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: #ffc404;
+    transform: translate(150px,200px);
+    position: absolute;
+}
+.box{
+    height: 85vh;
+    width: 75%;
+    padding: 0 20px;
+    background: rgb(255, 255,255,0.1);
+    z-index: 10;
+    display: flex;
+    position: relative;
+    border-radius: 20px;
+    border: 2px sold rgb(255, 255,255,0.7);
+    backdrop-filter: blur(25px);
+    box-shadow: -15px 17px 17px rgb(10, 10,10,0.25);
+
+}
+.sec{
+    position: absolute;
+    margin-top: 150px;
+    color: #fff;
+}
+.img1{
+    margin: 100px 0 0 800px;
+    height: 400px;
+    width: 30%;
+
+}
+.p1{
+    margin: 0 100px 0 0;
+}
+h3{
+    font-size: 16px;
+}
+.container2{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../Background\ Image\ Galaxy\ GIF\ -\ Background\ Image\ Galaxy\ Universe\ -\ Discover\ &\ Share\ GIFs.gif);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: aliceblue;
+    text-align: center;
+   
+
+}
+.hhh{
+    width: 500px;
+}
+.section2{
+  margin: 50px 0 0 0;
+  display: flex;
+ 
+  justify-content: center;
+}
+.section1{
+    margin: 0 0 0 300px;
+    
+}
+.box2{
+    height: 85vh;
+    width: 75%;
+    padding: 0 20px;
+    background: rgb(255, 255,255,0.1);
+    z-index: 10;
+    display: flex;
+    position: relative;
+    border-radius: 20px;
+    border: 2px sold rgb(255, 255,255,0.7);
+    backdrop-filter: blur(25px);
+    box-shadow: -15px 17px 17px rgb(10, 10,10,0.25);
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
